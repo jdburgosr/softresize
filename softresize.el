@@ -23,11 +23,6 @@
 ;;; Code:
 
 
-
-(provide 'softresize)
-;;; window_resize_improved.el ends here
-
-
 (defun softresize-enlarge-window ()
   "Enlarge windows to down direction.
 Except in the base."
@@ -71,3 +66,7 @@ Except in the rigth side."
     (if (window-in-direction 'right)
         (shrink-window 1 t)
       (enlarge-window 1 t))))
+
+
+(provide 'softresize)
+;;; softresize.el ends here
