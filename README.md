@@ -4,8 +4,11 @@ softresize give us four functions to handle the sizing of windows. The reference
 
 ## Optional configuration
 
+``` emacs-lisp
 (global-set-key (kbd "C-s-<up>") 'softresize-enlarge-window)
 (global-set-key (kbd "C-s-<down>") 'softresize-reduce-window)
 (global-set-key (kbd "C-s-<right>") 'softresize-enlarge-window-horizontally)
 (global-set-key (kbd "C-s-<left>") 'softresize-window-horizontally)
+
+```
 
