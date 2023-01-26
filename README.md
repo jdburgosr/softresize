@@ -12,3 +12,6 @@ softresize give us four functions to handle the sizing of windows. The reference
 
 ```
 
+## Demostration
+
+![muestra](images/test.gif "Testing")
