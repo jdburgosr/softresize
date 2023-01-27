@@ -34,6 +34,9 @@ And then paste the code in Optional configuration in your config.el file ☺.
 (global-set-key (kbd "C-s-<left>") 'softresize-reduce-window-horizontally)
 
 ```
+### Note:
+`C-s` mean Control-Super key. In Windows, Super Key is the key with the windows Logo on keyboard.
+
 
 ## Demonstration
 
