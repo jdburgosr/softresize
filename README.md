@@ -8,11 +8,11 @@ Clone this repo in local and add the load path to Emacs init fie.
 
 
 ### For newcomers
-I'm doing this because I remember me, when I was just starting to use emacs ;)
+I'm doing this because I remember me, when I was just starting to use Emacs ;)
 
 1. First you have to clone this repo in your local machine because it is not in MELPA or any other package archive.
-2. Next, add the code in Optional configuration to your init file.
-
+2. Add load path to your init file `(add-to-list 'load-path "/path/to/cloned/repository/softresize")`.
+3. Next, add the code in Optional configuration to your init file.
 ### If Doom Emacs
 
 If you are using doom Emacs, you can paste this code to package.el file.
