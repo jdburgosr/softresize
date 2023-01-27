@@ -1,6 +1,6 @@
 # softresize
 
-softresize give us four functions to handle the sizing of windows. The reference in all windows (except for the windows in the borders down and right) are the mode-line (the base bar) and the right column. So `enlarge-window` will move the mode-line of the current buffer upwards, and `reduce-window` will move it to downwards. Similar behavior will occur for horizontal resize.
+softresize give us four functions to handle the sizing of windows. The reference in all windows (except for the windows in the borders down and right) are the mode-line (the base bar) and the right column. So `enlarge-window` will move the mode-line of the current buffer upwards, and `reduce-window` will move it downwards. Similar behavior will occur for horizontal resize.
 
 
 ## Instalation
