@@ -24,7 +24,7 @@
 
 
 (defun softresize-enlarge-window ()
-  "Enlarge windows to down direction.
+  "Move mode line upward.
 Except in the base."
   (interactive)
   (if (and (window-in-direction 'up) (window-in-direction 'down))
@@ -35,7 +35,7 @@ Except in the base."
 
 
 (defun softresize-reduce-window ()
-  "Reduce windows from down direction.
+  "Move mode line downward.
 Except in the base."
   (interactive)
   (if (and (window-in-direction 'up) (window-in-direction 'down))
@@ -47,7 +47,7 @@ Except in the base."
 
 
 (defun softresize-enlarge-window-horizontally ()
-  "Enlarge windows horizontally to right direction.
+  "Move right column to right direction.
 Except in the rigth side."
   (interactive)
   (if (and (window-in-direction 'left) (window-in-direction 'right))
@@ -58,7 +58,7 @@ Except in the rigth side."
 
 
 (defun softresize-reduce-window-horizontally ()
-  "Reduce window horizontally from rigth direction.
+  "Move right column to left direction.
 Except in the rigth side."
   (interactive)
   (if (and (window-in-direction 'left) (window-in-direction 'right))
