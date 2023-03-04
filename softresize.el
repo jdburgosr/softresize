@@ -68,5 +68,35 @@ Except in the rigth side."
       (enlarge-window 1 t))))
 
 
+(defun softresize-delete-window-right()
+  "Delte window in right direction."
+  (interactive)
+  (if (window-in-direction 'right)
+      (delete-window (window-in-direction 'right))))
+
+
+(defun softresize-delete-window-left()
+  "Delte window in left direction."
+  (interactive)
+  (if (window-in-direction 'left)
+      (delete-window (window-in-direction 'right))))
+
+(defun softresize-delete-window-down()
+  "Delte window in down direction."
+  (interactive)
+  (if (window-in-direction 'down)
+      (delete-window (window-in-direction 'down))))
+
+
+(defun softresize-delete-window-up()
+  "Delte window in up direction."
+  (interactive)
+  (if (window-in-direction 'up)
+      (delete-window (window-in-direction 'up))))
+
+
+
+
+
 (provide 'softresize)
 ;;; softresize.el ends here

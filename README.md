@@ -41,3 +41,7 @@ And then paste the code in Optional configuration in your config.el file ☺.
 ## Demonstration
 
 ![muestra](images/test.gif "Testing")
+
+# Developing
+
+There is other four function to manage of deleting windows next to current window. In my personal configuration I move between windows with `M-arrow`, so I configure this functions in my init.et to be called with `M-S-arrow`. In this moment that functions are quite primitive because my Elisp knowledge, but work.
