@@ -79,7 +79,7 @@ Except in the rigth side."
   "Delte window in left direction."
   (interactive)
   (if (window-in-direction 'left)
-      (delete-window (window-in-direction 'right))))
+      (delete-window (window-in-direction 'left))))
 
 (defun softresize-delete-window-down()
   "Delte window in down direction."
